@@ -1,0 +1,139 @@
+body{
+  font-family: var(--ffpop);
+  background:  var(--bgcolor);
+  color: var(--tcolor);
+  overflow-x: hidden;
+}
+#hero{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+#item-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.jca{
+  height: 750px;
+  width: 100%;
+  margin-top: -35px;
+  object-fit: fill;
+}
+#item-bot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.nav {
+  font-family: var(--ffmuseo);
+  padding-left: 9rem;
+  padding-top: 20px;
+}
+.nav a {
+  float: left;
+  padding-right: 16px;
+}
+.nav .icon {
+  display: none;
+}
+/* projects */
+#projects{
+  padding: 2rem 6rem;
+  width: 100vw;
+}
+#p-top{
+  padding: 5rem 0px 2rem 2rem;
+}
+#p-mid{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+#contain-1{
+  background-color: var(--boxcolor);
+  padding: 20px;
+  width: 750px;
+  border-radius: 25px;
+}
+#case-img{
+  height: 400px;
+  width: 100%;
+  cursor: pointer;
+}
+#case-detail{
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.arrow {
+  display: flex;
+  justify-content: center;  
+  align-items: center;    
+  width: 50px;          
+  height: 50px; ;             
+  background-color: var(--tcolor); 
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;        
+  cursor: pointer;
+}
+.material-symbols-outlined {
+  font-size: inherit; 
+  color: var(--acolor);
+}
+
+#contain-2{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.box-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--boxcolor);
+  padding: 15px;
+  text-align: center;
+  border-radius: 25px;
+  height: 250px;
+  width: 400px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.box-1:hover,
+#case-img:hover
+{
+  opacity: 0.5;
+  transition: 0.5s;
+}
+#p-bot{
+  display: flex;
+  justify-content: space-between;
+  gap: 7rem;
+  padding: 2rem 5rem;
+}
+#box-2{
+  
+}
+.expertise{
+  margin-bottom: 20px;
+  padding: 50px 10px 70px 50px;
+  display: flex;
+  gap: 50px;
+  width: 400px;
+  background-color: var(--boxcolor);
+}
+.number{
+  text-align: right;
+  font-weight: 500;
+  font-size: 24px;
+}
+.quote{
+  padding: 13px;
+  margin-bottom: 20px;
+}

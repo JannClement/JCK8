@@ -1,0 +1,101 @@
+ @media only screen and (max-width: 800px) {
+    #item-bot{
+      flex-direction: column;
+    }
+    #img-1{
+      order: 2;
+    }
+    #img-2{
+      order: 1;
+    }
+    .jc, .andres{
+      width: 300px;
+      height: 300px;
+    }
+    .andres{
+      margin-bottom: -6rem;
+      padding:0px  20px;
+    } 
+    .jca{
+      height: 1000px;
+      width: 100%;
+      object-fit: none;
+    }
+    .nav{
+      padding: 50px 0rem 0rem 2rem;
+    }
+    #projects {
+    padding: 2rem 1rem;
+  }
+  #p-top {
+    padding: 2rem 0rem 1rem 0;
+    text-align: center; 
+  }
+  #p-mid {
+    flex-direction: column; 
+    align-items: center;
+    gap: 30px;
+  }
+  #contain-1 {
+    width: 100%; 
+    max-width: 700px; 
+    padding: 20px;
+  }
+  #contain-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  .box-1 {
+    width: 100%;
+    max-width: 300px; 
+    height: 200px;
+    font-size: 25px; 
+    padding: 20px;
+  }
+  .arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+  #p-bot {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0rem ;
+  }
+  #box-2 {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 2rem; 
+  }
+  .expertise {
+    width: 100%;
+    max-width: 600px; 
+    padding: 30px; 
+    flex-direction: column; 
+    margin-bottom: -10px;
+  }
+  .number {
+    text-align: left;
+    font-size: 20px; 
+  }
+  .quote {
+    width: 100%;
+    max-width: 600px; 
+    padding: 20px;
+  }
+  .quote h1 {
+    font-size: 24px;
+  }
+  .quote p {
+    font-size: 16px;
+  }
+}
+  @media only screen and (max-width: 900px){
+     canvas{
+      display: none;
+    }
+  }
