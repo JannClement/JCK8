@@ -14,27 +14,19 @@
     }
     .andres{
       margin-bottom: -6rem;
-      padding:0px  20px;
+      padding: 0px  20px;
     } 
     .jca{
-       margin-top: -100px;
       height: 1000px;
       width: 100%;
+      margin-top: -100px;
       object-fit: none;
     }
     .nav{
-      padding: 50px 0rem 0rem 2rem;
+      padding: 50px 0rem 0rem 1rem;
     }
     #projects {
     padding: 2rem 1rem;
-  }
-  #p-top {
-    padding: 2rem 0rem 1rem 0;
-  }
-  #p-mid {
-    flex-direction: column; 
-    align-items: center;
-    gap: 30px;
   }
   #contain-1 {
     width: 100%; 
@@ -58,11 +50,26 @@
     width: 40px;
     height: 40px;
     font-size: 20px;
+    margin-top: 20px;
   }
+  #p-top{
+    text-align: center;
+  }
+  #p-top,
+  #p-mid,
   #p-bot {
     flex-direction: column;
-    gap: 2rem;
-    padding: 2rem 0rem ;
+    gap: 1rem;
+  }
+  #case-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  #case-img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
   #box-2 {
     width: 100%; 
@@ -92,6 +99,10 @@
   }
   .quote p {
     font-size: 16px;
+  }
+  #footer{
+    flex-direction: column;
+    text-align: center;
   }
 }
   @media only screen and (max-width: 900px){
