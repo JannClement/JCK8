@@ -1,5 +1,5 @@
 body{
-  font-family: var(--ffpop);
+  font-family: var(--ffinter);
   background:  var(--bgcolor);
   color: var(--tcolor);
   overflow-x: hidden;
@@ -28,8 +28,8 @@ body{
 }
 .nav {
   font-family: var(--ffmuseo);
-  padding-left: 9rem;
-  padding-top: 20px;
+  padding-left: 6.5rem;
+  padding-top: 40px;
 }
 .nav a {
   float: left;
@@ -44,7 +44,8 @@ body{
   width: 100vw;
 }
 #p-top{
-  padding: 7.5rem 0px 2rem 2rem;
+  margin-top: 6rem;
+  padding: 2.2rem;
 }
 #p-mid{
   width: 100%;
@@ -54,20 +55,29 @@ body{
 }
 #contain-1{
   background-color: var(--boxcolor);
-  padding: 20px;
   width: 750px;
-  border-radius: 25px;
+  height: 100%;
+  border-radius: var(--border);
 }
 #case-img{
-  height: 320px;
+  background-image: url(/img/clint-bustrillos-K7OUs6y_cm8-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  height: 400px;
   width: 100%;
   cursor: pointer;
+  border-top-left-radius: var(--border);
+  border-top-right-radius: var(--border);
 }
 #case-detail{
-  padding: 15px 20px;
+  padding: 2.2rem;
   display: flex;
   justify-content: space-between;
   align-items: end;
+}
+.case-meaning p{
+  max-width: 500px;
 }
 .arrow {
   display: flex;
@@ -85,11 +95,10 @@ body{
   font-size: inherit; 
   color: var(--acolor);
 }
-
 #contain-2{
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 .box-1{
   display: flex;
@@ -98,8 +107,8 @@ body{
   background-color: var(--boxcolor);
   padding: 15px;
   text-align: center;
-  border-radius: 25px;
-  height: 250px;
+  border-radius: var(--border);
+  height: 100%;
   width: 400px;
   font-size: 20px;
   font-weight: 500;
@@ -114,19 +123,21 @@ body{
 #p-bot{
   display: flex;
   justify-content: space-between;
-  gap: 7rem;
-  padding: 2rem 5rem;
+  gap: 15px;
+  margin-top: 1rem;
 }
-#box-2{
-  
+#box-2,
+#box-3{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
 }
 .expertise{
-  margin-bottom: 20px;
-  padding: 50px 10px 70px 50px;
+  padding: 30px 20px 50px 50px;
   display: flex;
   gap: 50px;
-  width: 400px;
-  background-color: var(--boxcolor);
+  outline: solid 1px rgb(161, 161, 161);
 }
 .number{
   text-align: right;
@@ -134,6 +145,25 @@ body{
   font-size: 24px;
 }
 .quote{
-  padding: 13px;
-  margin-bottom: 20px;
+  height: 100%;
+  padding-left: 2.2rem;
+}
+.quote h1{
+  font-size: 42px;
+}
+#footer{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  font-family: var(--ffpop);
+}
+#links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-brands{
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 20px;
 }
