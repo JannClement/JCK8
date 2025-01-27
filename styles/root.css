@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
   --ffpop: "Poppins", serif;
-  --ffmuseo:  "MuseoModerno", serif;
+  --ffmuseo: "MuseoModerno", serif;
+  --ffinter: "Inter", serif;
   --fhpop: "Poppins", serif, 700;
   --fmpop: "Poppins", serif, 500,;
   /* color */
@@ -10,6 +11,8 @@
   --tcolor: #000;
   --acolor: #fff;
   --boxcolor: #d9d9d9;   
+
+  --border: 30px
 }
 *{
   padding: 0;
@@ -19,4 +22,11 @@
 a{
   color: var(--tcolor);
   text-decoration: none;
+}
+.p{
+  color: rgb(63, 63, 63);
+  font-size: 13px;
+  font-family: var(--ffinter);
+  padding-top: 5px;
+  line-height: 1.5;
 }
