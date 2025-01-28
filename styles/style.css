@@ -1,5 +1,5 @@
 body{
-  font-family: var(--ffinter);
+  font-family: var(--ffpop);
   background:  var(--bgcolor);
   color: var(--tcolor);
   overflow-x: hidden;
@@ -30,6 +30,7 @@ body{
   font-family: var(--ffmuseo);
   padding-left: 6.5rem;
   padding-top: 40px;
+  font-size: 15px;
 }
 .nav a {
   float: left;
@@ -65,7 +66,7 @@ body{
   background-repeat: no-repeat;
   background-position: 0%;
   height: 400px;
-  width: 100%;
+  min-width: 100%;
   cursor: pointer;
   border-top-left-radius: var(--border);
   border-top-right-radius: var(--border);
@@ -166,4 +167,92 @@ body{
   border-radius: 50%;
   font-size: 20px;
   padding: 20px;
+}
+/* about */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically in the center */
+  gap: 25px;
+  width: 100vw;
+  height: 100vh;
+  padding: 0px 6rem;
+  box-sizing: border-box; 
+}
+#about-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+#about-user,
+#about-email{
+  margin-top: 20px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: var(--border);
+  text-align: center;
+  font-family: var(--ffmuseo);
+  background-color: var(--bgcolor);
+  color: var(--tcolor);
+}
+#jc-img {
+  background-image: url(/img/jc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 350px; /* or a fixed height like height: 400px */
+  background-position: center center;
+}
+
+#skills{
+  width: 100%;
+  height: 150px;
+}
+#skills p{
+  padding-top: 10px;
+}
+#skills p:hover{
+  opacity: 0.5;
+  font-size: 23px;
+}
+#exdu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0px 6rem;
+  width: 100%;
+}
+#ex-cont{
+  display: flex;
+  gap: 25px;
+}
+#ex-info{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.ex-work{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.ex-date{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  width: 150px;
+  padding: 15px 10px;
+}
+.icons{
+  height: 150px;
+}
+#movingicon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
