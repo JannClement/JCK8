@@ -61,7 +61,7 @@ body{
   border-radius: var(--border);
 }
 #case-img{
-  background-image: url(img/clint-bustrillos-K7OUs6y_cm8-unsplash.jpg);
+  background-image: url("img/clint-bustrillos-K7OUs6y_cm8-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0%;
@@ -197,7 +197,7 @@ body{
   color: var(--tcolor);
 }
 #jc-img {
-  background-image: url(img/jc.png);
+  background-image: url("img/jc.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
