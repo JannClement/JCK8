@@ -6,6 +6,10 @@
   --ffinter: "Inter", serif;
   --fhpop: "Poppins", serif, 700;
   --fmpop: "Poppins", serif, 500,;
+
+  --heading: 32px;
+  --subheading: 22px;
+  --bodysub: 13px;
   /* color */
   --bgcolor: #EAF5FF;
   --tcolor: #000;
@@ -25,8 +29,20 @@ a{
 }
 .p{
   color: rgb(63, 63, 63);
-  font-size: 13px;
+  font-size: var(--bodysub);
   font-family: var(--ffinter);
   padding-top: 5px;
   line-height: 1.5;
+}
+.subheading{
+  font-size: var(--subheading);
+}
+.heading{
+  font-size: var(--heading);
+}
+hr{
+  height: 2px;
+  background-color: var(--tcolor);
+  border: none;
+  border-radius: 10px;
 }
